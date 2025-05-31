@@ -1,0 +1,8 @@
+services:
+  test-mujava:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: echo "A"
+    volumes:
+      - .:/code
